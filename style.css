@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 1px solid #f5f2f2 ;
+}
+.myntra_home{
+    width: 60px;
+    height: 40px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: content-box;
+    
+}
+.nav_bar a{
+    letter-spacing: .3px;
+    text-decoration: none;
+    color: #282c3f;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 32px 0px;
+    border-bottom: 4px solid  #ffffff;
+    transition: border-color 0.3s;
+   
+      
+}
+#studio{
+    padding: 30px 0;  
+}
+#studio:hover{
+    border-bottom-color: #ff3f6c;
+}
+#men:hover{
+    border-bottom-color: #ee5f73;
+
+}
+#women:hover{
+    border-bottom-color: #fb56c1;
+
+}
+
+#kids:hover{
+    border-bottom-color: #f26a10;
+
+}
+#home:hover{
+    border-bottom-color: #f2c210;
+
+}
+#beauty:hover{
+    border-bottom-color: #0db7af;
+
+}
+
+.nav_bar a:hover{
+    border-bottom: 4px solid  #f54e77;
+
+}
+.nav_bar a sup{
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff3f6c;
+    font-size: 10px;
+     
+
+}
+.search_bar{
+    height: 40px;
+    align-items: center;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+  
+}
+
+.search_input{
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    color: #696e79;   
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+}
+.search_icon{
+    font-size: 10px;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 20px;
+    padding: 9px 0 9px 9px;
+    background-color: #f5f5f6;
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    /* position: relative; */
+    font-weight: 200;
+    align-items: center;
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.action_icon{
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+
+}
+.banner_container{
+    margin: 40px 0;
+}
+#banner_image{
+    width: 100%;
+    height: auto;
+}
+.heading_link{
+    text-decoration: none;
+    color:   #3e4152;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+
+}
+.category_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sale_item{
+    width: 250px;
+    height: auto;
+} 
+.footer_container {
+    padding: 90px 50px 40px 90px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.footer_column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_column a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #7e818c;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+
+}
+
+h3{
+    font-weight: 700;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.download{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    padding: 5px;
+
+}
+.google_play{
+    margin-right: 10px;
+    height: 42px;
+}
+.playstore{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px 0 0;
+    display: inline-block;  
+}
+.social_image{
+   width: 22px;
+   height: 22px;
+   padding: 2px;
+}
+.copyright{
+ color: #94969f;
+ text-align: end;
+ padding: 10px;
+ font-size: small;
+}
+
+ 
