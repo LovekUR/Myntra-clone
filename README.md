@@ -1,4 +1,11 @@
-Myntra Clone Project
+Myntra Clone Project 
+
+Features
+Responsive navigation bar
+Hero section with promotional banner
+Product listing section
+Footer with links to various sections
+Fully responsive design using Flexbox
 
 Welcome to my first project - a clone of the Myntra website using CSS and HTML.This project aims to replicate the look and feel of the popular online fashion retailer, Myntra, using basic web development technologies.This project is a static website that mimics the homepage of Myntra. The primary focus of this project is to practice and demonstrate my skills in HTML and CSS.The project includes various elements typically found on an e-commerce site such as a navigation bar, product listings, promotional banners, and a footer.
 
